@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "ch.yanikfahrni.circlecafe"
+    },
+    "cordova-plugin-app-preferences": {
+      "PACKAGE_NAME": "ch.yanikfahrni.circlecafe"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "ch.yanikfahrni.circlecafe"
+    },
+    "cordova-plugin-calendar": {
+      "CALENDAR_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "ch.yanikfahrni.circlecafe"
+    }
+  },
+  "dependent_plugins": {}
+}

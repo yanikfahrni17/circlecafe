@@ -1,0 +1,26 @@
+{
+  "name": "ch.yanikfahrni.circlecafe",
+  "version": "1.0.0",
+  "displayName": "Circle Café",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-file": {},
+      "cordova-plugin-app-preferences": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-calendar": {
+        "CALENDAR_USAGE_DESCRIPTION": " "
+      }
+    }
+  },
+  "dependencies": {
+    "contacts": "^1.0.0",
+    "cordova-ios": "~4.4.0",
+    "cordova-plugin-app-preferences": "git+https://github.com/apla/me.apla.cordova.app-preferences.git",
+    "cordova-plugin-calendar": "^5.0.0",
+    "cordova-plugin-file": "~4.1.1",
+    "cordova-plugin-inappbrowser": "^1.7.2"
+  }
+}

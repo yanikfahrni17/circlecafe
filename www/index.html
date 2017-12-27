@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link href="assets/ratchet/css/ratchet.css" rel="stylesheet">
+	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
+	<link href="assets/css/pageslider.css" rel="stylesheet">
+</head>
+<body>
+<script id="home-tpl" type="text/template">
+    <header class="bar bar-nav">
+        <h1 class="title">Circle Café Events</h1>
+    </header>
+    <!--<div class="bar bar-standard bar-header-secondary">
+        <input class='search-key' type="search"/>
+    </div>-->
+	  <nav class="bar bar-tab tabbar">
+		<div class="homeBtn tab-item">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">Events</span>
+		</div>
+		<div class="beerBtn tab-item">
+			<span class="icon icon-star"></span>
+			<span class="tab-label">Beer</span>
+		</div>
+		<div class="infoBtn tab-item">
+			<span class="icon icon-gear"></span>
+			<span class="tab-label">Info</span>
+		</div>
+	  </nav>
+    <div class="content">
+
+	</div>
+</script>
+<script id="header" type="text/template">​
+<ul class="table-view">
+        {{#each this}}
+        <li class="table-view-cell media">
+          <a href="#sessions/{{ id }}">
+              <img class="media-object pull-left" src="{{pic}}">
+              <div class="media-body">
+                  {{date}} {{eventName}}
+                  <p>{{title}}</p>
+              </div>
+          </a>
+        </li>
+        {{/each}}
+    </ul>
+​</script>
+<script id="session-list-tpl" type="text/template">
+
+     <ul class="table-view">
+        {{#each this}}
+        <li class="table-view-cell media">
+          <a href="#sessions/{{ id }}">
+              <img class="media-object pull-left" src="{{pic}}">
+              <div class="media-body">
+                  {{date}} {{eventName}}
+                  <p>{{title}}</p>
+              </div>
+          </a>
+        </li>
+	
+        {{/each}}
+    </ul>
+
+</script>
+
+  <script id="session-tpl" type="text/template">
+      <header class="bar bar-nav">
+          <a class="btn btn-link btn-nav pull-left" href="#">
+              <span class="icon icon-left-nav"></span>
+          </a>
+          <h1 class="title">Event</h1>
+      </header>
+
+      <!-- NOTE: Bars MUST come before content -->
+      <nav class="bar bar-tab tabbar">
+		<div class="addBtn tab-item">
+			<span class="icon icon-star-filled"></span>
+			<span class="tab-label">Favourite</span>
+		</div>
+		<div class="addBtn tab-item">
+			<span class="icon icon-plus"></span>
+			<span class="tab-label">Add</span>
+		</div>
+		<div class="addBtn tab-item">
+			<span class="icon icon-share"></span>
+			<span class="tab-label">Share</span>
+		</div>
+      </nav>
+
+      <div class="content">
+          <div class="card">
+
+              <ul class="table-view">
+                  <li class="table-view-cell media">
+                      <img class="media-object pull-left" src="{{pic}}">
+                      <div class="media-body">
+                          {{ date }} {{ eventName }}
+                          <p>{{ title }}</p>
+                      </div>
+                      <p>{{ room }} | {{ time }}</p>
+
+                  </li>                
+                  <li class="table-view-cell media" style="min-height: 250px">
+                      <div> <p>{{ description }}</p></div>
+                  </li>                
+              </ul>
+          </div>          
+      </div>
+</script>
+<script id="beer-tpl" type="text/template">
+      <header class="bar bar-nav">
+          <a class="btn btn-link btn-nav pull-left" href="#">
+              <span class="icon icon-left-nav"></span>
+          </a>
+          <h1 class="title">Beer</h1>
+      </header>
+	  <nav class="bar bar-tab tabbar">
+		<div class="fotoBtn tab-item">
+			<span class="icon icon-pages"></span>
+			<span class="tab-label">Add</span>
+		</div>
+	  </nav>
+	  <div class="content beer">
+		<strong>Bierpass</strong>
+		<p>Für jede Stange gibts einen Punkt. 10 Punkte = eine gratis Stange, 30 Punkte = ...</p>
+		<ul class="beerpass">
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+			<li><i class="fa fa-beer" aria-hidden="true"></i></li>
+		</ul>
+	  </div>
+</script>
+<script id="info-tpl" type="text/template">
+      <header class="bar bar-nav">
+          <a class="btn btn-link btn-nav pull-left" href="#">
+              <span class="icon icon-left-nav"></span>
+          </a>
+          <h1 class="title">Info</h1>
+      </header>
+	  <nav class="bar bar-tab tabbar">
+		<div class="homeBtn tab-item">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">Events</span>
+		</div>
+		<div class="beerBtn tab-item">
+			<span class="icon icon-star"></span>
+			<span class="tab-label">Beer</span>
+		</div>
+		<div class="infoBtn tab-item">
+			<span class="icon icon-gear"></span>
+			<span class="tab-label">Info</span>
+		</div>
+	  </nav>
+	  <div class="content info">
+		<strong>Android App</strong><br />
+		<p>Name Entwickler</p><br />
+		<strong>IOS App</strong><br />
+		<p>Name Entwickler</p><br />
+		<strong>Design</strong><br />
+		<p>Name Designer</p><br />
+		<strong>Website</strong><br />
+		<a href="http://www.circlecafe.ch" target="_blank">www.circlecafe.ch</a><br /><br />
+		<strong>Kontakt</strong><br />
+		<a href="mailto:info@circlecafe.ch">info@circlecafe.ch</a><br />
+	  </div>
+</script>
+<script src="cordova.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery.mobile.custom.min.js"></script>
+<script src="lib/pageslider.js"></script>
+<script src="lib/router.js"></script>
+<script src="http://www.circlecafe.ch/app/ConferenceService.js"></script>
+<!--<script src="js/services/memory/ConferenceService.js"></script>-->
+<script src="lib/fastclick.js"></script>
+<script src="lib/handlebars.js"></script>
+<script src="js/SessionListView.js"></script>
+<script src="js/TestView.js"></script>
+<script src="js/HomeView.js"></script>
+<script src="js/SessionView.js"></script>
+<script src="js/BeerView.js"></script>
+<script src="js/InfoView.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

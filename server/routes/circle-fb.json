@@ -1,0 +1,142 @@
+{
+   "data": [
+      {
+         "description": "Join us for a bloody good time! Come dressed up to kill ;)",
+         "end_time": "2017-10-29T03:30:00+0100",
+         "name": "Halloween Kost\u00fcmparty",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-10-28T20:00:00+0200",
+         "id": "273664233128236"
+      },
+      {
+         "description": "Kommen Sie am 21.Oktober ins Circle Caf\u00e9 und geniessen thailandisches Essen, gekocht und zubereitet von einer thailandischen K\u00f6chin! Ein vierg\u00e4ngiges Menu mit Apero und Dessert erwartet Sie! F\u00fcr 49 CHF  pro Person ohne Getr\u00e4nke von 18:30 bis 22:00 Uhr. Anmeldung unter www.circlecafe.ch oder telefonisch auf 079 793 20 13",
+         "end_time": "2017-10-21T21:30:00+0200",
+         "name": "Thai Abend",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-10-21T18:30:00+0200",
+         "id": "1629516273757080"
+      },
+      {
+         "description": "Letztes WM Qualifikations Spiel der Schweizer Nati live im Circle Cafe!",
+         "end_time": "2017-10-10T23:00:00+0200",
+         "name": "Portugal - Schweiz WM Quali",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-10-10T20:00:00+0200",
+         "id": "1452800521422677"
+      },
+      {
+         "description": "WM Qualifikation Schweiz - Ungarn live im Circle",
+         "end_time": "2017-10-07T23:00:00+0200",
+         "name": "Schweiz - Ungarn WM Quali",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-10-07T20:00:00+0200",
+         "id": "1999000793668710"
+      },
+      {
+         "description": "WM Qualifikation Lettland - Schweiz live im Circle",
+         "end_time": "2017-09-03T23:00:00+0200",
+         "name": "Lettland - Schweiz WM Quali",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-09-03T20:00:00+0200",
+         "id": "817004071838065"
+      },
+      {
+         "description": "Das WM Qualifikationsspiel Schweiz - Andorra live im Circle",
+         "end_time": "2017-08-31T23:00:00+0200",
+         "name": "Schweiz - Andorra WM Quali",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.90686,
+               "longitude": 7.6383,
+               "street": "Dorfstrassse 1A",
+               "zip": "3506"
+            },
+            "id": "1624429630961885"
+         },
+         "start_time": "2017-08-31T20:00:00+0200",
+         "id": "188517525023085"
+      },
+      {
+         "description": "Live\u00fcbertragung ZSKA Moskau - Young Boys",
+         "end_time": "2017-08-23T23:00:00+0200",
+         "name": "Live\u00fcbertragung Champions League ZSKA Moskau - Young Boys",
+         "place": {
+            "name": "Circle Caf\u00e9",
+            "location": {
+               "city": "Gross H\u00f6chstetten",
+               "country": "Switzerland",
+               "latitude": 46.906823521062,
+               "longitude": 7.6383321276049,
+               "zip": "3506"
+            },
+            "id": "136598646391753"
+         },
+         "start_time": "2017-08-23T20:00:00+0200",
+         "id": "807781339403265"
+      }
+   ],
+   "paging": {
+      "cursors": {
+         "before": "QVFIUkVTdHVWalZANOEtNRWlyQnhQSk1DU1NLZA3ZAaMnFFSEd1R0cwMGgtM2ZA1dTMwbldGclVNdG9TeEJuVTVzZAEhXTzJRRlB4em5oeXA4bjFJUS1PX3U4SHF3",
+         "after": "QVFIUnAyd3B2YWJESHJsbmlrNlktQTA1M3lyaWNycnctejdJdVpFV3hHWFdmeXBwWktaNUpUSjd5RmZADZAm8wUE1NTy1SbXNfbVhUOTB1QmdCVDhpSWxUUTNn"
+      }
+   }
+}

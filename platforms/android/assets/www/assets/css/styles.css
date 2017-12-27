@@ -1,0 +1,103 @@
+ul {
+    clear: both;
+}
+
+.content {
+    position: absolute;
+}
+
+.bar-header-secondary>input {
+    margin-top: 6px;
+    height: 31px;
+}
+
+.table-view {
+    margin: 0 !important;
+    border: none;
+}
+
+.details h1 {
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.media-object {
+    width: 42px;
+    height: 42px;
+    border-radius: 25px;
+}
+
+.icon-call {
+    background: transparent url(images/ic_action_phone_outgoing.png);
+    background-repeat: no-repeat;
+}
+
+.icon-sms {
+    background: transparent url(images/ic_action_dialog.png);
+    background-repeat: no-repeat;
+}
+
+.icon-mail {
+    background: transparent url(images/ic_action_mail.png);
+    background-repeat: no-repeat;
+}
+
+.icon-manager {
+    background: transparent url(images/ic_action_user.png);
+    background-repeat: no-repeat;
+}
+
+.icon-reports {
+    background: transparent url(images/ic_action_users.png);
+    background-repeat: no-repeat;
+}
+
+.icon-contact {
+    background: transparent url(images/ic_action_add.png);
+    background-repeat: no-repeat;
+}
+
+.icon-location {
+    background: transparent url(images/ic_action_location.png);
+    background-repeat: no-repeat;
+}
+.media>p {
+    color: #444;
+}
+.bar-nav {
+    background-color: #222;
+    color: #ffde00;
+}
+.title {
+    color: #ffde00;
+}
+.bar-nav .icon {
+    color: #ffde00;
+}
+.bar-header-secondary {
+    background-color: #fff;
+}
+.info.content{
+	padding: 20px;
+	padding-top:60px;
+}
+.beer.content{
+	padding: 20px;
+	padding-top:60px;
+}
+.icon:hover, .tab-label:hover{
+	cursor: pointer;
+}
+.beerpass{
+	padding: 0;
+	text-align: center;
+	line-height: 50px;
+}
+.beerpass li{
+	list-style: none;
+	width: 20%;
+	float: left;
+}
+.fa-beer{
+	font-size: 36px;
+}
